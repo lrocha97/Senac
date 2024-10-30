@@ -1,0 +1,98 @@
+.topo{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100px;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.site img{
+    height: 100px;
+    padding-right: 10px;
+}
+
+.butao button{
+    margin: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.butao button:hover{
+    background-color: grey;
+}
+
+.site{
+    display: flex;
+    font-size: 25px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.sobre{
+    background-color: whitesmoke;
+    margin: 30px;
+}
+
+h1{
+    margin: 30px;
+}
+
+.sobrenos{
+    padding-top: 30px;
+}
+
+p{
+    margin: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+.comprar{
+    display: flex;
+    justify-content: center;
+}
+
+.comprar button{
+    display: flex;
+    margin-top: 15px;
+    width: 90%;
+    font-size: 20px;
+    background-color: rgb(16, 82, 182);
+    color: antiquewhite;
+    border: 0;
+    border-radius: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.comprar button:hover{
+    background-color: green;
+}
+
+.item1{
+    background-color: rgb(226, 223, 223);
+}
+
+.conteudo1{
+    margin: auto;
+}
+
+.descricao1{
+    margin: auto;
+}

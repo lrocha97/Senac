@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+
+.LOGO{
+    margin: 15px;
+    padding-top: 0%;
+}
+
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: 75px;
+}
+
+.butao{
+    padding-top: 20px;
+}
+
+.butao button{
+    font-size: 20px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.butao button:hover{
+    background-color: bisque;
+}
+
+
+.titulo{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.info{
+
+    background-color: whitesmoke;
+    margin: 100px 50px 50px 50px;
+}
+
+.botao2{
+    background-color: #007bff;
+    color: white;
+}
+
+
+.destinos{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.card{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    height: 100vh;
+    width: 100vh;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 600px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.card img{
+    width: 100%;
+    height: 600px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.sobre2{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(2, 40%);
+    column-gap: 40px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.box1{
+    padding-left: 15px;
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 100%;
+}
+
+.box2{
+    padding-left: 15px;
+    background-color: grey;
+    color: black;
+    height: 200px;
+    width: 100%;
+}
+
+.abobrinha{
+    font-size: 25px;
+}

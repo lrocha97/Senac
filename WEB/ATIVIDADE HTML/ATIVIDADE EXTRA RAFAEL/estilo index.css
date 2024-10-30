@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+
+
+}
+
+.tituloesquerda{
+    text-align: center;
+}
+
+.menuesquerda{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.menuesquerda:hover{
+    background-color: whitesmoke;
+}
+
+.menu{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100vh;
+    margin: 0;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: rgb(76, 82, 99)
+}
+
+
+.feeddireita{
+    color: whitesmoke;
+    padding: 35px;
+    margin: 0 0 0 245px;
+}
+
+.subtitulo{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.foto1{
+    height: 600px;
+    width: 100%;
+}
+
+.espaco1{
+    height: 30px;
+}
+
+.destino{
+    border: 50px;
+    height: 600px;
+    width: 500px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ofertaplaneta{
+    font-size: 35px;
+}
+

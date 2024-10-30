@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(90, 112, 112);
+}
+
+.cabecalho{
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+
+.quitanda{
+    text-align: center;
+}
+
+.corpo{
+    text-align: center;
+}
+
+img{
+    width: 500px;
+    height: 500px;  
+}
+
+.descricao{
+    list-style-type: none;
+    color: white;
+}
+

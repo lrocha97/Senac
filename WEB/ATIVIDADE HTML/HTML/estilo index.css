@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(90, 112, 112);
+}
+
+.cabecalho{
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+
+.quitanda{
+    text-align: center;
+}
+
+.prod{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.corpo{
+    text-align: center;
+}
+
+.butao{
+    border-radius: 100%;
+    text-align: center;
+}
